@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "homepage": "https://mehtaayush859.github.io/personal_portfolio_website/",
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",

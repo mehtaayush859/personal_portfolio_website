@@ -11,10 +11,8 @@ export default defineConfig(({ mode }) => ({
   },
   base: "/personal_portfolio_website/",
   plugins: [
-    react(),
-    mode === 'development' &&
-    componentTagger(),
-  ].filter(Boolean),
+    react()
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
