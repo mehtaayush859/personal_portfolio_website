@@ -27,8 +27,6 @@ const Skills = () => {
     // Frontend
     { name: 'React', category: 'frontend', level: 5 },
     { name: 'Next.js', category: 'frontend', level: 4 },
-    { name: 'TypeScript', category: 'frontend', level: 4 },
-    { name: 'JavaScript', category: 'frontend', level: 5 },
     { name: 'HTML5', category: 'frontend', level: 5 },
     { name: 'CSS3', category: 'frontend', level: 5 },
     { name: 'Tailwind CSS', category: 'frontend', level: 5 },
