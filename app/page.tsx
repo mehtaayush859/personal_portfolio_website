@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -8,23 +9,11 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 const Index = () => {
-  // Smooth scroll to section when URL contains hash
-  useEffect(() => {
-    const hash = window.location.hash;
-    if (hash) {
-      const element = document.querySelector(hash);
-      if (element) {
-        setTimeout(() => {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
-      }
-    }
-  }, []);
 
   return (
     <div className="bg-pattern min-h-screen">
       <Navbar />
-      <main>
+      <main className="content-visible">
         <Hero />
         <About />
         <Projects />
